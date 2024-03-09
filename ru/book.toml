@@ -1,8 +1,8 @@
 [book]
 title = "Rust By Practice"
-description = "Learn Rust with Example, Exercise and real Practice, written with ❤️ by https://course.rs team"
+description = "Учите Rust по Примерам, Упражнениям и на Практике, написанна с ❤️ командой https://course.rs"
 authors = ["sunface, https://im.dev"]
-language = "en"
+language = "ru"
 
 [output.html.playpen]
 editable = true

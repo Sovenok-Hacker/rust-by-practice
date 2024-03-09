@@ -2,14 +2,14 @@
   var path = window.location.pathname;
   var link = "https://practice.course.rs" + path;
   var word = "English";
-  var lang = "zh-CN";
-  var changeLang = "切换到英语";
+  var lang = "en";
+  var changeLang = "Switch to English";
 
-  if (window.location.href.indexOf("zh.") == -1) {
-    link = "https://practice-zh.course.rs" + path;
-    word = "简体中文";
-    lang = "en";
-    changeLang = "Switch to Chinese";
+  if (window.location.href.indexOf("en.") == -1) {
+    link = "https://practice.course.rs" + path;
+    word = "Переключить на английский";
+    lang = "ru";
+    changeLang = "Switch to Russian";
   }
 
   var lang_node = "";
